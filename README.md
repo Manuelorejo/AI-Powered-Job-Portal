@@ -21,7 +21,9 @@ Built with **Streamlit**, **LLMs (LLaMA-4 via Groq)**, **Sentence Transformers**
 ## 📁 Project Structure
 
 ├── main.py # Handles login/register, analyzing and correcting resumes and routing
+
 ├── auth.py # DB and login logic
+
 ├── linkedln.py # Web scraper for Linkedln.com
 ├── jobberman.py # Web scraper for Jobberman.com
 ├── myjobmag.py # Web scraper for MyJobMag.com
