@@ -36,10 +36,9 @@ Built with **Streamlit**, **LLMs (LLaMA-4 via Groq)**, **Sentence Transformers**
 ## 🛠️ Tech Stack
 
 - 🧠 **LLM**: LLaMA 4 (via Groq API)
-- 🔍 **Semantic Search**: FAISS + SentenceTransformers
+- 🔍 **Semantic Search**:SentenceTransformers
 - 🔐 **Auth**: Streamlit + SQLite + SHA256
 - 🧾 **Parsing**: `pdfplumber`, `docx`, `pandas`
-- 📊 **Visualization**: Plotly + YData-Profiling
 - 💻 **Web UI**: Streamlit (Multi-page with sidebar)
 
 ---
