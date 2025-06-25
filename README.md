@@ -25,13 +25,21 @@ Built with **Streamlit**, **LLMs (LLaMA-4 via Groq)**, **Sentence Transformers**
 ├── auth.py # DB and login logic
 
 ├── linkedln.py # Web scraper for Linkedln.com
+
 ├── jobberman.py # Web scraper for Jobberman.com
+
 ├── myjobmag.py # Web scraper for MyJobMag.com
+
 ├── hotnigerianjobs.py # Web scraper for hotnigerianjobs.com
+
 ├── jobsguru.py # Web scraper for JobGurus.com
+
 ├── Users.db # SQLite DB for users
+
 ├── pages/
+
 │ └── Search.py # Search page for job scrapers
+
 └── requirements.txt
 
 
