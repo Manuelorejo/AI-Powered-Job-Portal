@@ -1,4 +1,13 @@
 import streamlit as st
+
+
+# Set page title
+st.set_page_config(
+    page_title="Search Jobs - Nigerian Job Search Aggregator",
+    page_icon="🔍",
+    layout="wide"
+)
+
 import json
 import sys
 import os
@@ -33,12 +42,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 if st.session_state.resume:
     resume = st.session_state.resume
 
-# Set page title
-st.set_page_config(
-    page_title="Search Jobs - Nigerian Job Search Aggregator",
-    page_icon="🔍",
-    layout="wide"
-)
+
 
 # Enhanced CSS for styling with updated colors and borders
 st.markdown("""
