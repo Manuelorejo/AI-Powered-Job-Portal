@@ -358,15 +358,7 @@ def display_job_card(job):
     
     #AI Tailored resume
     resume = st.session_state.resume
-    if st.button("Tailor Resume"):
-        
-        with st.spinner:
-            tailored_resume = tailor_resume(resume, job['job_description'])
-            try:
-                st.download_button("Download tailored resume", tailored_resume, f"{job['job_title']} resume.pdf", "pdf")
-                st.success("Download successful")
-            except:
-                st.error("Download failed")
+
         
     
     # Render the complete HTML
