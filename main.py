@@ -13,7 +13,7 @@ from auth import get_connection
 
 st.title("AI-Powered Resumer Analyzer")
 
-
+api_key = os.getenv("api_key")
 def upload_resume():
     resume = st.file_uploader("Please upload your resume (PDF or DOCX)")
     if resume:
