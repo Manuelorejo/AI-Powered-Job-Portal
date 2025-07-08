@@ -6,6 +6,7 @@ Created on Tue Jun 17 13:30:35 2025
 """
 
 import streamlit as st
+import os
 from pypdf import PdfReader
 from groq import Groq
 from auth import get_connection
