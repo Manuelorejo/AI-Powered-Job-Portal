@@ -66,6 +66,7 @@ PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyYAML==6.0.2
+os
 referencing==0.36.2
 regex==2024.11.6
 requests==2.32.4
